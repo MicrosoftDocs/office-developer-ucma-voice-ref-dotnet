@@ -1,0 +1,20 @@
+{
+  "dependencies": [
+    "Microsoft.Rtc.Client.Psom.ApplicationCore",
+    "Microsoft.Rtc.Client.Psom.Kernel",
+    "Microsoft.Rtc.Client.Psom.MeetingParts",
+    "Microsoft.Rtc.Client.Psom.MeetingProtocols",
+    "Microsoft.Rtc.Collaboration",
+    "Microsoft.Rtc.Internal.Media",
+    "Microsoft.Rtc.Management.ADConnect",
+    "Microsoft.Rtc.Management.Core",
+    "Microsoft.Rtc.ServerConfiguration",
+    "Microsoft.Speech",
+    "Microsoft.Speech.VoiceXml.Adapter",
+    "Microsoft.Speech.VoiceXml",
+    "Microsoft.Speech.VoiceXml.Interpreter"
+  ],
+  "ucma-voice": [
+    "Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml"
+  ]
+}

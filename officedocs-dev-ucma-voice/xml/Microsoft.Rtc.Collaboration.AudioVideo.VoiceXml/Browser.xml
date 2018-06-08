@@ -1,0 +1,90 @@
+﻿<Type Name="Browser" FullName="Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser">
+  <TypeSignature Language="C#" Value="public class Browser : Microsoft.Speech.VoiceXml.Browser" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Browser extends Microsoft.Speech.VoiceXml.Browser" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser" />
+  <TypeSignature Language="VB.NET" Value="Public Class Browser&#xA;Inherits Browser" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Browser : Microsoft::Speech::VoiceXml::Browser" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Speech.VoiceXml.Browser</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             The Browser class in the Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml namespace              provides access to the resources of the Unified Communications Managed API (UCMA)              version 3.0 to support automated interactions with callers during VoiceXML sessions.              </summary>
+    <remarks>
+      <para>The Browser class is derived from the Microsoft.Speech.VoiceXml.Browser base              class, and has access to all the public and protected members of the base class. The              Browser class also makes use of all the enumerated types, EventArgs classes, and              interpretation result classes of the Microsoft.Speech.VoiceXml.Common namespace.</para>
+      <para>The Browser adds the ability to interpret VoiceXML pages to a UCMA call. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Browser ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Browser();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Creates a new instance of the Browser class.             </summary>
+        <remarks>
+          <para>UCMA supports creating VoiceXML Browser objects using a default constructor.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Dispose(bool disposing);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">true if directly disposing</param>
+        <summary>             Dispose the Browser instance and release all managed and unmanaged resources used             in the VoiceXML session.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAudioVideoCall">
+      <MemberSignature Language="C#" Value="public void SetAudioVideoCall (Microsoft.Rtc.Collaboration.AudioVideo.AudioVideoCall audioVideoCall);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetAudioVideoCall(class Microsoft.Rtc.Collaboration.AudioVideo.AudioVideoCall audioVideoCall) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser.SetAudioVideoCall(Microsoft.Rtc.Collaboration.AudioVideo.AudioVideoCall)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAudioVideoCall(Microsoft::Rtc::Collaboration::AudioVideo::AudioVideoCall ^ audioVideoCall);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="audioVideoCall" Type="Microsoft.Rtc.Collaboration.AudioVideo.AudioVideoCall" />
+      </Parameters>
+      <Docs>
+        <param name="audioVideoCall">Provides access to media resources in the MCS              environment in support of VoiceXML sessions.</param>
+        <summary>             Associates a VoiceXML Browser instance with an active AudioVideoCall object received              at a UCMA 3.0 endpoint.              </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

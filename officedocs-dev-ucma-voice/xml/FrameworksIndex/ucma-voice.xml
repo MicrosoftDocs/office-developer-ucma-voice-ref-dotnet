@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="ucma-voice">
+  <Namespace Name="Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml">
+    <Type Name="Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser" Id="T:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser">
+      <Member Id="M:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser.#ctor" />
+      <Member Id="M:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser.Dispose(System.Boolean)" />
+      <Member Id="M:Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml.Browser.SetAudioVideoCall(Microsoft.Rtc.Collaboration.AudioVideo.AudioVideoCall)" />
+    </Type>
+  </Namespace>
+</Framework>

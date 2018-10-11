@@ -6,7 +6,9 @@
       "build_output_subfolder": "officedocs-dev-ucma-voice",
       "locale": "en-us",
       "monikers": [
-        "ucma-voice"
+        "ucma-voice",
+        "ucma-voice-4.0",
+        "ucma-voice-5.0"
       ],
       "moniker_ranges": [],
       "open_to_public_contributors": true,

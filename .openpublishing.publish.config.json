@@ -41,7 +41,8 @@
         "SourceXmlFolder": "officedocs-dev-ucma-voice/xml",
         "OutputYamlFolder": "officedocs-dev-ucma-voice/api",
         "Flatten": true,
-        "id": "officedocs-dev-ucma-voice"
+        "id": "officedocs-dev-ucma-voice",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-ucma-voice/api/officedocs-dev-ucma-voice/toc.yml"
@@ -90,8 +91,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }

@@ -46,14 +46,14 @@
       "ms.author": "o365devx",
       "manager": "davech",
       "ms.date": "6/1/2018",
+      "ms.suite": "office",
       "ms.topic": "reference",
       "audience": "developer",
       "ms.reviewer": "",
       "ms.suite": "office",
       "ms.prod": "lync",
       "ms.technology": "sdk",
-      "ms.tgt_pltfrm": "dotnet",
-      "apiPlatform": "dotnet"
+      "ms.tgt_pltfrm": "dotnet"
     },
     "fileMetadata": {
       "author": {
@@ -61,6 +61,7 @@
       }
     },
     "template": [],
+    "isCanonicalUrlWithMoniker": true,
     "dest": "_site",
     "xref": [
       "_zip/msdn.4.5.2.zip"

@@ -39,6 +39,8 @@
       ]
     },
     "globalMetadata": {
+      "ms.subservice": "sdk",
+      "ms.service": "lync",
       "feedback_system": "Standard",
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
@@ -51,8 +53,6 @@
       "ms.topic": "reference",
       "audience": "developer",
       "ms.reviewer": "",
-      "ms.prod": "lync",
-      "ms.technology": "sdk",
       "ms.tgt_pltfrm": "dotnet"
     },
     "fileMetadata": {
